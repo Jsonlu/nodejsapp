@@ -1,0 +1,31 @@
+{
+  "name": "DingDingRobot",
+  "version": "1.0.0",
+  "description": "a DingDingRobot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "nohup node index.js >>log.log &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsonLu/DingDingRobot.git"
+  },
+  "keywords": [
+    "DingDingRobot"
+  ],
+  "author": "JsonLu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JsonLu/DingDingRobot/issues"
+  },
+  "homepage": "https://github.com/JsonLu/DingDingRobot#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "shelljs": "^0.7.8"
+  }
+}

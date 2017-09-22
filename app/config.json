@@ -1,0 +1,66 @@
+{
+  "data": {
+    "group": {
+      "android-developers": [
+        "86ec7c3f367352e6794b935c027b760d964074f0448581a6a00f3da4b4784852"
+      ],
+      "yujieqiong": [
+        ""
+      ]
+    },
+    "git": {
+      "StaffLoan": {
+        "url": "git@116.62.113.124:android-developers/StaffLoan.git",
+        "branch": [
+          {
+            "name": "dev",
+            "ci_url": "https://www.pgyer.com/lo8P",
+            "ci_logo": "https://www.pgyer.com/app/qrcode/lo8P"
+          },
+          {
+            "name": "master",
+            "ci_url": "https://www.pgyer.com/Qk03",
+            "ci_logo": "https://www.pgyer.com/app/qrcode/Qk03"
+          }
+        ],
+        "group": "android-developers"
+      },
+      "huajinbao": {
+        "url": "git@116.62.113.124:android-developers/huajinbao.git",
+        "branch": [
+          {
+            "name": "bianjieshidai",
+            "ci_url": "https://www.pgyer.com/lo8P",
+            "ci_logo": "https://www.pgyer.com/app/qrcode/lo8P"
+          },
+          {
+            "name": "master",
+            "ci_url": "https://www.pgyer.com/Qk03",
+            "ci_logo": "https://www.pgyer.com/app/qrcode/Qk03"
+          }
+        ],
+        "group": "android-developers"
+      }
+    },
+    "template": {
+      "msgtype": "markdown",
+      "markdown": {
+        "title": "更新提示",
+        "text": "#### %s \n > ![screenshot]( %s )\n> ###### %s [去更新]( %s )"
+      },
+      "at": {
+        "isAtAll": true
+      }
+    },
+    "default": {
+      "msgtype": "markdown",
+      "markdown": {
+        "title": "更新提示",
+        "text": "#### %s \n > ![screenshot]( %s )\n> ###### %s [去更新]( %s )"
+      },
+      "at": {
+        "isAtAll": true
+      }
+    }
+  }
+}

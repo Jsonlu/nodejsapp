@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+  nodejs:
+    container_name: node
+    image: registry.cn-hangzhou.aliyuncs.com/jsonlu/ci-nodejs:1.0.0
+    volumes:
+      - /root/.ssh:/root/.ssh  #私钥用于git认证
+      - ./app:/app  #nodejs应用的目录
+    ports:
+      - 8086:3000
+    command:
+      node /app/index.js
+    mem_limit: 1024m
+    restart: always
